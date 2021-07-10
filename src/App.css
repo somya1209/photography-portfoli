@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
  
 }
 
@@ -58,23 +58,24 @@ border-radius: 100%;
 }
 .titles{
   position: absolute;
- 
+ margin: 200px;
 }
 .title:hover{
   font-size: 90px;
  
-  -webkit-text-fill-color:  rgb(230, 2, 78);
+  -webkit-text-fill-color: rgba(217, 217, 255, 0.87);
   -webkit-text-stroke-width: 0px;
 
   
 }
  .title{
   font-family: 'Nunito Sans', sans-serif;
+  min-width: 100%;
  font-size: 90px;
- margin: 0px;
+ margin: 2%;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:  rgb(255, 255, 255);
+  -webkit-text-stroke-color:   rgba(217, 217, 255, 0.87);
 }
 
 .category{
